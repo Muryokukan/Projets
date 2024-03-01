@@ -1,0 +1,54 @@
+
+
+h1 {
+  font-size: 150%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #d6e6e9;
+  background: linear-gradient(320deg,#7bbdc9,#c58526,7bbdc9);
+}
+
+footer {
+  display: flex;
+  background-color: #dcc7be;
+  justify-content: center;
+  margin-top: auto;
+}
+
+#LienCGU {
+  display: flex;
+  justify-content: right;
+}
+
+main {
+  display: flex;
+}
+
+#panneau-gauche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  height: 84vh;
+}
+
+#panneau-droite {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  height: 94vh;
+}
+
+h2{
+  text-decoration: underline;
+  font-family: Regency;
+  font-size: 50px;
+  ;
+}
+

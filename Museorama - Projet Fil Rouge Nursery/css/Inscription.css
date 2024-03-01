@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+.zoneinscri {
+  border: black solid 2px;
+  background: rgb(57, 57, 57);
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 7vh;
+  height: 75vh;
+  width: 60vh;
+  margin-bottom: 13vh;
+  padding-top: 3vh;
+}
+
+body {
+  background-image: url(../Images/ImageConnexion.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+a {
+  color: black;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+footer {
+  display: flex;
+  background-color: #dcc7be;
+  justify-content: center;
+  margin-top: auto;
+}
+
+#LienCGU {
+  display: flex;
+  justify-content: right;
+}
+
+label {
+  color: white;
+}
+
+#cgufoot {
+  color: rgb(0, 0, 0);
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lienCGU{
+  color: white;
+}

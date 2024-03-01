@@ -1,0 +1,48 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border:  solid black 3px; */
+}
+
+
+.zoneinscri {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  padding: 10px;
+  background: rgb(63, 63, 63);
+  border: black solid 3px;
+  margin-top: 7vh;
+}
+
+main {
+  padding-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-image: url(../Images/la_piscine_de_roubaix_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+section {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  border: black  solid 2px;
+}
+
+label {
+  color: white;
+}

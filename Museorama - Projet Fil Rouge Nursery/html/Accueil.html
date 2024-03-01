@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/Accueil.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/Template.css">
+
+</head>
+
+<body>
+  <header>
+    <article class="logos-header1">
+
+        <a href="Accueil.html" id="logosite"><img src="../Images/logosite.svg" alt="Logo" width="40"></a>
+        <a href="Carteinteractive.html" id="logocarte"><img src="../Images/logocarte.svg" alt="Carte"
+                width="30"></a>
+        <a href="Touslesmusees.html"><img src="../Images/logomusees.svg" width="40" alt="Tous les musées"></a>
+        <a href="Categories.html"><img src="../Images/logomenu.svg" width="40" alt="Les catégories"></a>
+        <!-- <img src="../Images/logomenu.svg" alt="Menu" width="30" class="logomenu"> -->
+        <!-- <a href="#" id="imageDropdown" data-toggle="dropdown">
+            <img src="../Images/logomenu.svg" width="40">
+        </a> -->
+        <!-- <ul class="menuDeroulant" id="menuDeroulant">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="../html/Touslesmusees.html" class="menuDeroulant" id="menuDeroulant1">Tous les musées</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="../html/Categories.html" class="menuDeroulant" id="menuDeroulant2">Les catégories</a></li> -->
+    </article>
+
+    <h1><a style="text-decoration: none; color: black;" href="Accueil.html">Muséorama Lille Métropole</h1></a>
+
+    <article class="logos-header2">
+        <a href="Favoris.html" id="logocoeurplein"><img src="../Images/logocoeurplein.svg" alt="Favoris"
+                width="30"></a>
+        <a href="Besoindaide.html" id="logoquestion"><img src="../Images/logoquestion.svg" alt="Besoin d'aide ?"
+                width="30"></a>
+                <nav>
+                  <ul>
+                     <li id="logoprof"><a href="#"><img src="../Images/logoprofil.svg" id="logoprofilli"></a>
+                          <ul>
+                             <li class="borderblack"><a href="Connexion.html">Connexion</a></li>
+                             <li class="borderblack"><a href="Gestiondecompte.html">Gestion de compte</a></li>
+                         </ul>
+                     </li>
+                  </ul>
+             </nav>
+    </article>
+</header>
+
+  <main id="opera-lille">
+    <article class="marquee-rtl">
+
+      <i class="bi bi-info-circle-fill">
+        <h2> N’OUBLIEZ PAS, TOUS LES 1er DIMANCHES DU MOIS LES MUSÉES SONT GRATUITS</h2>
+      </i>
+    </article>
+    <!-- <img src="Opera Lille.jpg" alt=""> -->
+  <div id="recherche">
+    <form action="">
+      <label for="">
+        <input type="text" id="recherche" placeholder="Recherche" required>
+      </label>
+      <a href="Touslesmusees.html">
+        <img src="../Images/loupe.png" alt="loupe" width="50"></a>
+  </div>
+    <!-- carousel -->
+      <div id="carousel-container">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000" id="carousel">
+              <img src="../Images/le-palais-des-beaux-arts-lille.jpg" class="" alt="Palais des beaux-Arts" height="500px" width="900px">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Palais des beaux-Arts</h5>
+                <!-- <p id="pcarousel">Lorem, ipsum dolor.</p> -->
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000" id="carousel">
+              <img src="../Images/imgPiscineRoubaix.jpg" class="" alt="La Piscine de Roubaix" height="500px" width="900px">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>La Piscine de Roubaix</h5>
+                <!-- <p id="pcarousel">Lorem ipsum dolor sit amet.</p> -->
+              </div>
+            </div>
+            <div class="carousel-item" id="carousel">
+              <img src="../Images/villa-cavrois-1 1.png" class="" alt="Villa Cavrois" height="500px" width="900px">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Villa Cavrois</h5>
+                <!-- <p id="pcarousel">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> -->
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    <!-- fin carousel -->
+
+  </main>
+  <footer>
+    <p>
+      Envie de recevoir notre newsletter et rester au courant de l'actualité des musées de la métropole ?<br>
+      Entrez votre adresse e-mail !
+      <input type="text" name="Barre e-mail" id="" placeholder="Adresse e-mail">
+      <input type="submit" value="Envoyer">
+
+      <a href="CGU.html"> C.G.U </a>
+  </footer>
+
+
+  <script src="../js/Accueil.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+
+}
+
+
+
+body {
+  background-image: url(../Images/imgPiscineRoubaix.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.zoneinscri{
+    background: rgb(57, 57, 57);
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    border: black; size: 15px;
+    border-radius: 3%;
+    border-width: thick;
+    align-content: center;
+    border: solid black 2px;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+label {
+  color: white;
+}
+

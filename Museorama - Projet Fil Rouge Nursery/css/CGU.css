@@ -1,0 +1,38 @@
+h1 {
+  font-size: 150%;
+}
+
+footer {
+  display: flex;
+  background-color: #dcc7be;
+  justify-content: center;
+}
+
+#LienCGU {
+  display: flex;
+  justify-content: right;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+h3 {
+  text-decoration: underline;
+  margin: 20px 0px;
+}
+
+#corps-principal {
+  margin: 30px;
+  text-align: justify;
+}
+
+body {
+  background-color: #d6e6e9;
+}
+
+#liste {
+  font-size: 100%;
+  color: black;
+}

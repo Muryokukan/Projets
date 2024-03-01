@@ -1,0 +1,60 @@
+h1 {
+  font-size: 150%;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  background-color: #dcc7be;
+  justify-content: center;
+  margin-top: auto;
+}
+
+#LienCGU {
+  display: flex;
+  justify-content: right;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+body {
+  background-image: url(../Images/ImageConnexion.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+label {
+  color: white;
+}
+* {
+  margin: 0;
+  /* border: solid black 2px; */
+}
+
+.zoneinscri {
+  border: black solid 2px;
+  background: rgb(57, 57, 57);
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 13vh;
+  height: 60vh;
+  width: 60vh;
+  margin-bottom: 13vh;
+  padding-top: 9vh;
+  }
