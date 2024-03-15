@@ -1,0 +1,40 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333333;
+  
+}
+
+.container {
+  display: flex; 
+  justify-content: space-around; 
+  padding: 30px;
+  width: 1000px;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: 40%; 
+  padding: 20px; 
+  margin: 20px;
+  background-color: lightgrey; 
+  border-radius: 10px; 
+  text-align: center; 
+  cursor: pointer;
+}
+
+.block hr {
+  background-color: #333333;
+  height: 5px;
+}
+
+.block p {
+  font-size: 19px;
+  margin-top: 10px;
+}

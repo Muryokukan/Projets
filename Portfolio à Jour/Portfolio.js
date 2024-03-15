@@ -59,8 +59,8 @@ function topFunction() {
 
 document.getElementById('votreLien').addEventListener('click', function(event) {
   event.preventDefault(); 
-  var text = 'c.limosin@outlook.fr'; // Texte que vous voulez copier
-  copyToClipboard(text); // Appel de la fonction pour copier le texte dans le presse-papiers
+  var text = 'c.limosin@outlook.fr'; 
+  copyToClipboard(text); 
 });
 
 function copyToClipboard(text) {

@@ -16,7 +16,7 @@ toggler.addEventListener("click", toggleNav);
 
 
 new ResizeObserver(entries => {
-  if (entries[0].contentRect.width <= 1186){
+  if (entries[0].contentRect.width <= 1275){
     navLinksContainer.style.transition = "transform 0.4s ease-out";
   } else {
     navLinksContainer.style.transition = "none";
